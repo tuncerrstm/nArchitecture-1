@@ -8,12 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services.Repositories
 {
-<<<<<<< HEAD
-    public interface IBrandRepository : IAsyncRepository<Brand>, IRepository<Brand>
-=======
-    public interface IBrandRepository: IAsyncRepository<Brand>, IRepository<Brand>
->>>>>>> 125547c3f212856527ebc54ce59074606f091a66
+    public interface IModelRepository:IAsyncRepository<Model>, IRepository<Model>
     {
-
     }
 }
